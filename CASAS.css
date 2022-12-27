@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+#inicio {
+    background: linear-gradient(rgba(88, 125, 98, 0.884), rgba(8, 71, 16, 0.7)), url(/IMAGENES/Logos/Portada\ Facebook\ agente\ inmobiliaria\ minimalista\ verde.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+
+}
+
+#inicio .contenido header {
+    background-color: #0c462ae1;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+
+}
+
+#inicio .contenido header .contenido-header {
+    max-width: width 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+#inicio .contenido header .contenido-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#inicio .contenido header .contenido-header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+#inicio .contenido header .contenido-header nav ul a:hover {
+    color: #459a38;
+
+}
+
+
+#inicio .contenido header .contenido-header .redes a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+
+#inicio .contenido header .contenido-header .redes a :hover {
+    color: #ff5080;
+}
+
+#inicio .contenido .presentacion {
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#inicio .contenido .presentacion .bienvenida {
+    font-size: 16px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#inicio .contenido .presentacion h2 {
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+
+
+}
+
+#inicio .contenido .presentacion h2 span {
+    font-size: 50px;
+
+}
+
+#inicio .contenido .presentacion .descripcion {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+#venta {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+}
+
+#venta .venta {
+    margin: 0 40px;
+
+
+}
+
+#venta .venta .titulo-seccion {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+
+
+
+#venta .venta p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #565656;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+
+/*SECTION RESPONSIVE*/
+@media screen and (max-width:800px) {
+    .redes {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav.responsive {
+        display: block;
+        background-color: rgba(0, 0, 0, .8);
+        width: 100%;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        padding: 10px 0;
+
+    }
+
+    nav.responsive ul {
+        display: block !important;
+        text-align: center;
+
+    }
+
+    nav.responsive ul li {
+        margin: 5px 0;
+
+    }
+
+    #icono-nav {
+        display: block;
+
+    }
+}
+
+#inicio .contenido .presentacion h2 {
+    font-size: 40px;
+
+}
+
+#contacto {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+}
+
+#contacto .contacto {
+    margin: 0 40px;
+
+
+}
+
+#contacto .contacto .titulo-seccion {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+
+
+
+#contacto .contacto p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #565656;
+    margin-bottom: 20px;
+
+}
+
+
+#footer {
+    background-color: rgb(33, 112, 46);
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+}

@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Erika M.Estefan</title>
+</head>
+
+<body>
+    <!--seccion de inicio-->
+    <section id="inicio">
+
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <img src="IMAGENES/Logos/Logo.jpeg" alt="Logo" width="80" height="80">
+
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li> <a href="#inicio" class="seleccion ado">INICIO</a></li>
+                            <li> <a href="#nosotros">NOSOTROS</a></li>
+                            <li> <a href="#ventas">VENTAS</a></li>
+                            <li> <a href="#alquiler">ALQUILER</a></li>
+                            <li> <a href="#tasaciones">TASACIONES</a></li>
+                            <li> <a href="#contacto">CONTACTO</a></li>
+
+                        </ul>
+                    </nav>
+
+                    <!--Iconos del menu responsive-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!--Iconos de las redes sociales-->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a href="https://www.youtube.com/channel/UCMAQUbgvqjjunAZRi1kXm6w"><i
+                                class="fa-brands fa-youtube"></i></a>
+                        <a
+                            href="https://api.whatsapp.com/send?phone=%2B542236036761&fbclid=IwAR0yzfdQVAnt1lgvFDPQyKM_UOGxbDpbanGcJUrRrw7eH7kaBDY_2t6r1xA"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+
+                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://instagram.com/estefanpropiedades?igshid=YmMyMTA2M2Y="><i
+                                class="fa-brands fa-square-instagram"></i></a>
+
+
+
+                    </div>
+
+                </div>
+
+            </header>
+
+            <section class="main py-5">
+                <div class="container py-5">
+                    <div class="row py-5">
+                        <div class="col-lg-10 py-5 mx-auto">
+                            <h1 class="text-white text-center">Encuentra tu lugar</h1>
+
+                            <div class="card mt-4">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <span>Ciudad</span>
+                                            <select class="mt-2" name="" id="">
+                                                <option value=""> Todos</option>
+                                                <option value=""> Buenos Aires, Buenos Aires</option>
+                                                <option value=""> Coronel Vidal, Buenos Aires</option>
+                                                <option value=""> Mar Chiquita, Buenos Aires</option>
+                                                <option value=""> Mar del Plata, Buenos Aires</option>
+                                                <option value=""> Santa Elena, Buenos Aires</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span>Tipo de inmueble</span>
+                                            <select class="mt-2" name="" id="">
+                                                <option value="">Todos</option>
+                                                <option value=""> Apartamentos</option>
+                                                <option value=""> Casa</option>
+                                                <option value=""> Chalet</option>
+                                                <option value=""> duplex</option>
+                                                <option value=""> Finca-Hoteles</option>
+                                                <option value=""> Hoteles</option>
+                                                <option value=""> Dúplex</option>
+                                                <option value="">Local</option>
+                                                <option value=""> Lote/Terreno</option>
+                                                <option value=""> Terreno</option>
+
+
+
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span>Estado Propiedad</span>
+                                            <select class="mt-2" name="" id="">
+                                                <option value=""> Todos</option>
+                                                <option value="">Nuevo</option>
+                                                <option value="">Usado</option>
+                                                <option value="">Proyecto</option>
+                                                <option value="">En construcción</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span>Tipo de negocio</span>
+                                            <select class="mt-2" name="" id="">
+                                                <option value=""> Venta</option>
+                                                <option value=""> Alquiler</option>
+                                                <option value=""> Permuta</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span>Alcobas</span>
+                                            <select class="mt-2" name="" id="">
+                                                <option value=""> 1 o más</option>
+                                                <option value=""> 2 o más</option>
+                                                <option value=""> 3 o más</option>
+                                                <option value=""> 4 o más</option>
+                                                <option value=""> 5 o más</option>
+                                                <option value=""> 6 o más</option>
+                                                <option value=""> 7 o más</option>
+
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span>Baños</span>
+                                            <select class="mt-2" name="" id="">
+                                                <option value=""> 1 o más</option>
+                                                <option value=""> 2 o más</option>
+                                                <option value=""> 3 o más</option>
+                                                <option value=""> 4 o más</option>
+                                                <option value=""> 5 o más</option>
+                                                <option value=""> 6 o más</option>
+                                                <option value=""> 7 o más</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span>Precio desde</span>
+                                            <select class="mt-2" name="" id="">
+                                                <option value=""> 1 o más</option>
+                                                <option value=""> 2 o más</option>
+                                                <option value=""> 3 o más</option>
+                                                <option value=""> 4 o más</option>
+                                                <option value=""> 5 o más</option>
+                                                <option value=""> 6 o más</option>
+                                                <option value=""> 7 o más</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <span>Precio hasta</span>
+                                            <select class="mt-2" name="" id="">
+                                                <option value=""> 1 o más</option>
+                                                <option value=""> 2 o más</option>
+                                                <option value=""> 3 o más</option>
+                                                <option value=""> 4 o más</option>
+                                                <option value=""> 5 o más</option>
+                                                <option value=""> 6 o más</option>
+                                                <option value=""> 7 o más</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-lg-3">
+                                            <input type="button" class="btn1" value="search">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+                integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+                crossorigin="anonymous"></script>
+
+
+        </div>
+
+        <!--buscador-->
+
+    </section>
+
+
+    <!--seccion sobre mi-->
+    <section id="nosotros">
+        <div class="nosotros">
+            <p class="titulo-seccion">Nosotros</p>
+
+            <h2 style="text-align:center">ATLANTIDA </h2>
+
+            <div class="row">
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/0.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+                </div>
+
+
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/1a.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/2a.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/3a.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                </div>
+
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/5a.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                </div>
+
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/1b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                </div>
+
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/2b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/3b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/4b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/5b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/6b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/7b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/8b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/9b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/3.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/4.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/5.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
+                </div>
+            </div>
+
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+
+                    <div class="mySlides">
+                        <div class="numbertext">1 /17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/0.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 /17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/1a.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/2a.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/3a.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/5a.jpg" style="width:100%">
+                    </div>
+
+
+                    <div class="mySlides">
+                        <div class="numbertext">6/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/1b.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">7/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/2b.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">8/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/3b.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">9/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/4b.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">10/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/5b.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">11/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/6b.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">12/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/7b.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">13/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/8b.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">14/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/9b.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">15/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/3.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">16/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/4.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">17/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/5.jpg" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/0.jpg"
+                            style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/1a.jpg"
+                            style="width:100%" onclick="currentSlide(2)" alt="Snow">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/2a.jpg"
+                            style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/3a.jpg"
+                            style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/5a.jpg" style="width:100%"
+                            onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/1b.jpg"
+                            style="width:100%" onclick="currentSlide(6)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/2b.jpg"
+                            style="width:100%" onclick="currentSlide(7)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/3b.jpg"
+                            style="width:100%" onclick="currentSlide(8)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/4b.jpg"
+                            style="width:100%" onclick="currentSlide(9)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/5b.jpg"
+                            style="width:100%" onclick="currentSlide(10)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/6b.jpg"
+                            style="width:100%" onclick="currentSlide(11)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/7b.jpg"
+                            style="width:100%" onclick="currentSlide(12)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/8b.jpg"
+                            style="width:100%" onclick="currentSlide(13)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/9b.jpg"
+                            style="width:100%" onclick="currentSlide(14)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/3.jpg"
+                            style="width:100%" onclick="currentSlide(15)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/4.jpg"
+                            style="width:100%" onclick="currentSlide(16)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/5.jpg"
+                            style="width:100%" onclick="currentSlide(17)" alt="Northern Lights">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!---->
+
+
+            <h2 style="text-align:center">ATLANTIDA </h2>
+
+            <div class="row">
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/0.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+                </div>
+
+
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/1a.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/2a.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/3a.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                </div>
+
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/5a.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                </div>
+
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/1b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                </div>
+
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/2b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/3b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/4b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/5b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/6b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/7b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/8b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/9b.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/3.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/4.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/5.jpg" style="width:100%"
+                        onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
+                </div>
+            </div>
+
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+
+                    <div class="mySlides">
+                        <div class="numbertext">1 /17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/0.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 /17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/1a.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/2a.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/3a.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/5a.jpg" style="width:100%">
+                    </div>
+
+
+                    <div class="mySlides">
+                        <div class="numbertext">6/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/1b.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">7/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/2b.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">8/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/3b.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">9/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/4b.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">10/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/5b.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">11/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/6b.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">12/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/7b.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">13/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/8b.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">14/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/9b.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">15/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/3.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">16/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/4.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">17/ 17</div>
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/5.jpg" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/0.jpg"
+                            style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/1a.jpg"
+                            style="width:100%" onclick="currentSlide(2)" alt="Snow">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/2a.jpg"
+                            style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/a/3a.jpg"
+                            style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/5a.jpg" style="width:100%"
+                            onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/1b.jpg"
+                            style="width:100%" onclick="currentSlide(6)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/2b.jpg"
+                            style="width:100%" onclick="currentSlide(7)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/3b.jpg"
+                            style="width:100%" onclick="currentSlide(8)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/4b.jpg"
+                            style="width:100%" onclick="currentSlide(9)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/5b.jpg"
+                            style="width:100%" onclick="currentSlide(10)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/6b.jpg"
+                            style="width:100%" onclick="currentSlide(11)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/7b.jpg"
+                            style="width:100%" onclick="currentSlide(12)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/8b.jpg"
+                            style="width:100%" onclick="currentSlide(13)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/b/9b.jpg"
+                            style="width:100%" onclick="currentSlide(14)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/3.jpg"
+                            style="width:100%" onclick="currentSlide(15)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/4.jpg"
+                            style="width:100%" onclick="currentSlide(16)" alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/casa atlantida/Av. Atlantida entre Rodas y Chipre/5.jpg"
+                            style="width:100%" onclick="currentSlide(17)" alt="Northern Lights">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function openModal() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+
+
+    </section>
+
+    <!--SECCION VENTAS-->
+    <seccion id="ventas">
+
+        <h3 class=titulo-seccion>VENTAS</h3>
+
+
+
+        <div class="card-group">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </seccion>
+    <!--seccion alquiler-->
+    <section id="alquiler">
+        <h3 class="titulo-seccion">ALQUILERES</h3>
+
+
+        <div class="card text-center">
+            <div class="card-header">
+
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Propiedades en alquiler</h5>
+                <p class="card-text">Estos son nuestros inmuebles en Alquiler. Si Usted no encuentra lo que está
+                    buscando, no olvide activar una
+                    alerta con su e-mail al final del listado y le informaremos cuando ingresen nuevos inmuebles.</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+            <div class="card-footer text-muted">
+
+            </div>
+        </div>
+
+        <div class="card-group">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECCION VENTAS-->
+
+
+    <!--SECCION VENTAS-->
+    <seccion id="ventas">
+        <div class="contenedor-skills" id="skills">
+            <h3 class=titulo-seccion>VENTAS</h3>
+
+
+    </seccion>
+    <!--SECCION CONTACTO-->
+    <section id="contacto">
+
+
+
+
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Dirección de email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
+                        class="input-full"></textarea>
+
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+
+
+
+
+
+        </div>
+
+
+        </form>
+        <div class="container">
+            <form action="">
+                <h1>SUSCRÍBITE A NUESTRO NEWSLETTER</h1>
+                <p>Envíenos su consulta o inquietud, le responderemos a la brevedad.
+                    Si lo desea, puede dejarnos un teléfono de contacto y nos comunicaremos con Ud.</p>
+                <div class="email-box">
+                    <i class="fas fa-envelope"></i>
+                    <input class="tbox" type="email" name="" value="" placeholder="Ingrese su email">
+                    <button class="btn" type="button" name="button">Enviar</button>
+
+                </div>
+            </form>
+
+
+        </div>
+
+        </div>
+
+    </section>
+    <section id="contacto">
+        <h2 class="titulo-seccion">Nos encontramos en Santa Clara del Mar</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.683861290236!2d-57.50957678468045!3d-37.844286279746825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d1bfe573e341%3A0x51fb118afcedc6ef!2sErika%20M.%20Estefan%20Propiedades!5e0!3m2!1ses-419!2sar!4v1666360497917!5m2!1ses-419!2sar"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <footer>
+            <p>Todos los derechos reservados-2022</p>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="https://www.youtube.com/channel/UCMAQUbgvqjjunAZRi1kXm6w"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <a
+                    href="https://api.whatsapp.com/send?phone=%2B542236036761&fbclid=IwAR0yzfdQVAnt1lgvFDPQyKM_UOGxbDpbanGcJUrRrw7eH7kaBDY_2t6r1xA"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://instagram.com/estefanpropiedades?igshid=YmMyMTA2M2Y="><i
+                        class="fa-brands fa-square-instagram"></i></a>
+
+
+
+            </div>
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-4c448bc6-9c11-4526-8ebc-e91fd0b2e604"></div>
+        </footer>
+        <script scr="script.js"></script>
+
+</body>
+
+</html>
+</body>
+
+</html>
